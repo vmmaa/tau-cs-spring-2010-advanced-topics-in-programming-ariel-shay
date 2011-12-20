@@ -1,0 +1,12 @@
+int ( short [ double {k}])		// ok
+([{)]}							// ok
+(10+(4+2)+(2*(1-2))-2)			// ok
+
+)(								// illegal
+][								// illegal
+}{								// illegal
+
+(1(2(3))))						// illegal
+[4[5[6]]]]						// illegal
+{7{8{9}}}}						// illegal
+// end of file: should notify on illegal brackets
