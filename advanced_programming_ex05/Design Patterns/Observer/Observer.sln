@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observer", "Observer.vcproj", "{AEDD2922-8D83-4CA8-9717-97BD5E3BDD70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEDD2922-8D83-4CA8-9717-97BD5E3BDD70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AEDD2922-8D83-4CA8-9717-97BD5E3BDD70}.Debug|Win32.Build.0 = Debug|Win32
+		{AEDD2922-8D83-4CA8-9717-97BD5E3BDD70}.Release|Win32.ActiveCfg = Release|Win32
+		{AEDD2922-8D83-4CA8-9717-97BD5E3BDD70}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

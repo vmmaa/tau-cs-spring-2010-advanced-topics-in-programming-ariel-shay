@@ -1,0 +1,16 @@
+int i = 0;
+
+// good if-else statement
+if (i < 9){
+	i++;
+} else {
+	int k = i;
+	k++;
+	if (char == void) public private virtual;
+	else const class for while;
+}
+
+// bad if-else statement
+if (i) i++;
+else i--;
+else i=i+2;	// illegal

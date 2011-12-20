@@ -1,0 +1,24 @@
+class A{
+	char c;
+	short i;
+	int j;
+	long k[] = long[2];
+	float f;
+	double d;
+	void;
+	
+	for (i=0; i<k[0]; i++){
+		if (j==7){
+			j = 2+(3-1)*{8&2}+k[1];
+		} else {
+			j->i; j<<i; j>>i;
+		}
+	}
+	
+	while(i<2){
+		private int l;
+		public short m;
+		const virtual class B;
+	}
+	
+}

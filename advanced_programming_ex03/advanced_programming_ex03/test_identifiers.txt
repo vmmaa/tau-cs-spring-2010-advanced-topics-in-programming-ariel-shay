@@ -1,0 +1,23 @@
+int i;			// ok
+i = 10;			// ok
+short i;		// illegal - redefinition
+
+int short j;	// illegal - double definition
+j = 13;			// illegal - j not defined
+
+k = 8;			// illegal - k not defined
+double k = 8.19	// ok
+
+10.2			// ok - a number
+09128			// ok - a number
+989.12.321		// illegal - not a number so parsed as an identifier - illegal name
+int 19abc;		// illegal identifier definition
+
+int AAA;		// ok
+int ZZZ;		// ok
+short aaa;		// ok
+short zzz;		// ok
+
+// usage
+AAA = 19;		// ok - AAA defined
+ZZZ = aaa+zzz;	// ok - all defined
